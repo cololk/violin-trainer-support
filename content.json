@@ -1,10 +1,10 @@
 {
   "updatedAt": "2026-10-24",
   "configuration": {
-    "developerName": "",
-    "supportEmail": "",
-    "privacyPolicyURL": "",
-    "supportURL": ""
+    "developerName": "Cololk",
+    "supportEmail": "Lukelin0072@gmail.com",
+    "privacyPolicyURL": "https://cololk.github.io/violin-trainer-support/privacy.html",
+    "supportURL": "https://cololk.github.io/violin-trainer-support/support.html"
   },
   "translations": {
     "zh-Hant": {
