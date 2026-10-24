@@ -1,0 +1,359 @@
+{
+  "updatedAt": "2026-10-24",
+  "configuration": {
+    "developerName": "",
+    "supportEmail": "",
+    "privacyPolicyURL": "",
+    "supportURL": ""
+  },
+  "translations": {
+    "zh-Hant": {
+      "privacy": {
+        "title": "隱私政策",
+        "introduction": "Violin Trainer 使用麥克風協助你練習小提琴音高與音準。以下說明目前版本如何處理音訊、練習紀錄與設定。",
+        "sections": [
+          {
+            "id": "microphone",
+            "title": "麥克風與音高分析",
+            "paragraphs": [
+              "取得麥克風權限後，App 在使用期間讀取音訊，在裝置內分析音高、音準與琴弦位置。即時分析會暫時使用音訊片段；未使用錄音功能時，不會因此保存完整的練習錄音。",
+              "麥克風也可能收到周圍的人聲或其他聲音。錄音前請留意環境，並取得在場者同意。你可以在 iOS「設定」撤銷本 App 的麥克風權限；撤銷後，收音與即時分析功能無法使用。"
+            ]
+          },
+          {
+            "id": "recordings",
+            "title": "錄音與練習紀錄",
+            "paragraphs": [
+              "錄音保存在你的裝置內。第二頁另保存當次練習設定、音高與琴弦分析結果，以及對應的畫面與時間紀錄，用於回顧與排查問題。",
+              "第一頁與第二頁各保留最近成功保存的一段錄音。新的錄音成功保存後取代上一段；空錄音或保存失敗時保留原有錄音。錄製操作與容量限制請參閱「使用說明與支援」。"
+            ]
+          },
+          {
+            "id": "preferences",
+            "title": "練習統計與設定",
+            "paragraphs": [
+              "語言、調音基準與練習統計儲存在裝置內，方便下次使用。統計包含練習時間、音符、音準偏差與有效音長。",
+              "第二頁在前景顯示且麥克風開啟時，會自動累積有效音符的統計，不必按 REC；單純統計不會保存完整錄音。App 會定期保存進度，並在離頁、停止收音或進入背景時保存。本機另保留統計備份，資料無法讀取時可能保留原始副本以供恢復。",
+              "若你曾使用個人學習功能，裝置內可能另有短錄音與修正紀錄，僅用於裝置內的修正與驗證，不會自動上傳。"
+            ]
+          },
+          {
+            "id": "sharing",
+            "title": "資料傳送與分享",
+            "paragraphs": [
+              "App 沒有使用者帳號、雲端音高分析或自動上傳錄音功能。不會自動把錄音、音高、琴弦分析結果或練習統計傳給開發者或廣告服務，也不會用這些練習資料進行跨 App 或跨網站追蹤。",
+              "你自行分享檔案時，收件者會取得你選擇提供的內容。開啟外部網站或使用郵件服務時，該服務依自己的隱私政策處理相關資料。"
+            ]
+          },
+          {
+            "id": "advertising",
+            "title": "廣告與隱私選擇",
+            "paragraphs": [
+              "廣告功能啟用時，App 使用 Google AdMob 提供非個人化廣告。廣告服務可能處理 IP 位址與概略位置、裝置或 App 識別資訊、廣告互動、效能與當機資料，用於廣告顯示、衡量與服務運作。非個人化廣告仍可能使用連線與裝置資訊。",
+              "App 不要求跨 App 追蹤授權；完成必要的隱私選擇後才請求廣告。適用時，可在「設定」的「廣告隱私選項」變更選擇。Google 的資料處理方式請參閱 https://policies.google.com/privacy 。"
+            ]
+          },
+          {
+            "id": "support-data",
+            "title": "你提供的支援資料",
+            "paragraphs": [
+              "你主動寄給我們的聯絡資訊、問題描述、錄音或診斷資料，僅用於回覆、排查你回報的問題及相關後續聯絡。寄信不會自動附上錄音；請只提供必要內容。",
+              "這些資料只在處理問題及必要後續追蹤期間保留，完成處理且不再需要時刪除。不會用於廣告或公開展示；若需另作研究或模型訓練，會另外徵得你的同意。",
+              "你可以回覆原支援信件，要求刪除你提供的資料。我們會依請求刪除可控制的副本；刪除 App 不會同時刪除支援往來信件。郵件服務的備份與保留依其政策處理。"
+            ]
+          },
+          {
+            "id": "retention",
+            "title": "保留、刪除與備份",
+            "paragraphs": [
+              "在第二頁按「刪除」，並確認「刪除本頁錄音與指印？」後，會停止錄製，刪除本頁保存及正在錄製的音訊與相關紀錄，再清除畫面指印。第一頁錄音與累積統計另行保留；統計可在「統計」頁清除，也會一併刪除本機統計備份與保留的損壞統計資料。",
+              "提供個人學習功能的版本可在「設定」清除短錄音與修正紀錄。要移除全部本機資料，包括第一頁錄音或舊版本留下的資料，請在 iOS 的 iPhone 儲存空間管理選擇「刪除 App」；「卸載 App」會保留資料。",
+              "已分享的檔案與寄出的信件不會隨 App 刪除。部分本機資料可能依你的系統設定納入 iCloud 或電腦備份；備份需另外管理，恢復備份可能還原舊資料。App 沒有獨立的雲端同步服務。"
+            ]
+          },
+          {
+            "id": "purchases",
+            "title": "App Store 購買",
+            "paragraphs": [
+              "付款由 Apple App Store 處理；App 不接收你的付款卡資料或 Apple 帳號密碼。App 在裝置上讀取並驗證購買紀錄，以提供或恢復 Premium 權益。",
+              "交易資訊不加入錄音或練習統計，也不會由 App 傳給開發者或廣告服務。購買、恢復或退款不會刪除練習資料。"
+            ]
+          },
+          {
+            "id": "changes",
+            "title": "政策更新",
+            "paragraphs": [
+              "功能或資料處理方式改變時，我們會更新這份政策及上方日期。"
+            ]
+          }
+        ]
+      },
+      "support": {
+        "title": "使用說明與支援",
+        "introduction": "先查看以下常見問題。回報問題時，可提供 App 版本、iPhone 機型、iOS 版本、操作步驟，以及是否使用藍牙或外接麥克風。",
+        "sections": [
+          {
+            "id": "permission",
+            "title": "沒有收音或曾拒絕麥克風權限",
+            "paragraphs": [
+              "到 iOS「設定」找到 Violin Trainer，開啟麥克風權限；也可在「隱私權與安全性」的「麥克風」項目中調整。回到 App 後再試一次。",
+              "使用藍牙或外接音訊設備時，請確認目前連接的裝置，以及麥克風是否可用。"
+            ]
+          },
+          {
+            "id": "audio-recovery",
+            "title": "來電、Siri 與耳機切換後如何恢復",
+            "paragraphs": [
+              "來電、Siri 或音訊輸入切換可能暫停收音。麥克風原本開啟且 iOS 允許恢復時，App 會重新連接輸入；若顯示「請按麥克風恢復收音」或「無法啟動麥克風」，請按麥克風按鈕重試。",
+              "正在錄音時遇到音訊中斷、輸入切換或進入背景，App 會停止當次錄音並嘗試保存已錄部分。第一頁保存失敗時仍保留上一段。恢復收音不會自動續錄，請等待保存結束，再按 REC 開始新段。",
+              "拔掉耳機時，App 會先停止播放，避免聲音直接轉到喇叭。更換藍牙或 USB 音訊裝置後，若無法恢復，請確認裝置連接與麥克風可用，再按麥克風重試。",
+              "iOS 音訊服務重置後，須按麥克風重新開始收音。你自行關閉麥克風後，切回 App 或更換裝置不會自動開啟。"
+            ]
+          },
+          {
+            "id": "practice",
+            "title": "音高或光球與演奏不一致",
+            "paragraphs": [
+              "先調好四條空弦，在較安靜的環境穩定拉一個長音，並確認 App 的調音基準與實際使用值相同。快速換弦、弱音、背景聲音及不同收音設備都可能影響結果。",
+              "灰色「…」表示琴弦位置仍在確認中。回報弦位問題時，請盡可能提供實際演奏的琴弦、音符及發生位置；同一個音可能在不同琴弦上演奏。"
+            ]
+          },
+          {
+            "id": "statistics",
+            "title": "如何自動累積音準統計",
+            "paragraphs": [
+              "在第二頁「音準分析」開啟麥克風並演奏，即時光球確認的有效持續音會自動納入統計，不必按 REC。按 REC、STOP 或刪除錄音不會清除已累積的統計。離開該頁、停止收音或進入背景時，App 會保存這次練習。",
+              "灰色「…」等待光球、暫時保留的上一音與尚未確認的位置不作為新樣本；短暫聲音或無效音高也不一定形成一筆統計。統計依當時調號保存，在「統計」頁選擇相應調號與期間查看，並可另行清除。",
+              "練習中約每 15 秒保存一次進度，持續中的長音也會保存已量測的部分，不重複計分；異常關閉仍可能遺失上次成功保存後的進度。保存失敗或從備份恢復時，「統計」頁會顯示提示，必要時請釋放空間並按「重試保存」。清除統計也會刪除其備份與保留的損壞原始資料。"
+            ]
+          },
+          {
+            "id": "recording",
+            "title": "錄音的保存、取代與刪除",
+            "paragraphs": [
+              "第一頁與第二頁各保留最近成功保存的一段錄音。按 REC 直接開始新段；新段停止並成功保存後，才取代該頁的上一段。建立失敗、空錄音或保存失敗時，上一段仍會保留。",
+              "第一頁按 REC 錄製音訊，錄製時同一按鈕會顯示錄音時間與停止圖示；再按一次停止，或按 PLAY 先保存再播放。請等待「保存中」結束；成功後 PLAY 播放新錄音，失敗則保留上一段並提示。",
+              "第二頁按 REC 開始錄製，按鈕上方會顯示錄音時間；再按同一按鈕停止，保存後可按 PLAY 播放。錄音同時保存音高與琴弦分析等練習紀錄。保存期間請勿強制關閉 App。離開第二頁會停止本頁錄音；來電、進入背景或切換輸入裝置也可能提前停止。",
+              "第二頁新錄音成功保存後，會取代先前保存的錄音，包含舊版本累積的多段資料。按「刪除」會詢問「刪除本頁錄音與指印？」；確認後停止錄製，刪除本頁已保存及正在錄製的音訊與相關紀錄，再清除指印。取消則保留資料。第一頁錄音與累積統計另行保留。",
+              "第一頁與第二頁的新錄音各有 1 GiB 上限，並預留至少 200 MiB 裝置空間。重錄時上一段暫時保留，需要額外空間。達到上限或無法確認空間時會停止錄音；可播放的前段通過驗證並保存成功後，會取代上一段，空錄音或保存失敗則保留上一段。48 kHz 單聲道音訊約占 659 MiB／小時，第二頁判弦紀錄另占空間。請釋放空間後再錄製，或用音準分析頁的「刪除」移除該頁錄音。",
+              "第一頁未完成的新錄音暫存檔會在下次開啟 App 或重錄時清理。App 只在裝置內讀取檔案大小與可用空間，確認是否能繼續錄音；容量資訊不會加入錄音紀錄或傳送給開發者。"
+            ]
+          },
+          {
+            "id": "data",
+            "title": "管理練習資料",
+            "paragraphs": [
+              "第二頁目前保留一段錄音，直接使用頁面的「刪除」按鈕並確認，即可刪除本頁錄音、相關紀錄與畫面指印。第一頁錄音在下次成功保存新錄音後取代；音準統計須在「統計」頁另外清除。",
+              "提供個人學習功能的版本可在「設定」清除短錄音與修正紀錄，最多保留 24 筆診斷紀錄。要刪除全部本機資料（包括第一頁錄音或舊版資料），請在 iOS 選擇「刪除 App」，而非保留資料的「卸載 App」。",
+              "系統備份、已分享的檔案與支援信件需另外管理。支援資料可回覆原支援信件要求刪除；完整說明見「隱私政策」。"
+            ]
+          },
+          {
+            "id": "advertising",
+            "title": "廣告列與隱私選項",
+            "paragraphs": [
+              "廣告功能啟用時，成功載入的廣告會顯示在頁面底部。離線、沒有可用廣告或尚未完成必要的隱私選擇時，廣告列保持隱藏，你仍可練習、錄音與使用統計。",
+              "適用時，到「設定」的「廣告隱私選項」修改選擇。若廣告暫時無法取得，可在設定重試；隱私政策也可離線閱讀。Premium 的一次購買包含移除廣告與全調號音準分析，購買與恢復均由 App Store 核對。"
+            ]
+          },
+          {
+            "id": "contact",
+            "title": "回報問題",
+            "paragraphs": [
+              "回報時請勿提供密碼、付款資料或不相關的個人資訊。若要提供錄音，請先確認內容適合分享。",
+              "我們只在處理問題及必要後續追蹤期間保留你提供的支援資料，完成處理且不再需要時刪除。你也可以回覆原支援信件要求刪除；研究或模型訓練用途會另外徵得你的同意。"
+            ]
+          },
+          {
+            "id": "purchases",
+            "title": "購買、恢復與購買協助",
+            "paragraphs": [
+              "在「設定」的 Premium 一次永久解鎖「移除廣告＋全調號音準分析」，不需訂閱，也不分開販售。可查看所有支援大調與自然小調的既有及新統計；即時音高偵測、錄音與練習資料收集繼續免費提供。價格依 App Store 回傳的當地幣別顯示。未啟用廣告的版本原本就不顯示廣告，已解鎖的免廣告權益在之後提供廣告的版本仍適用。",
+              "若商品或價格未載入，請重新載入購買項目；不會以測試價格代替。請先停止錄音或播放，並等待保存完成，再進行購買或恢復。",
+              "按「恢復購買」會核對目前 App Store 帳號的 Premium 購買，不會再次收費。只有通過驗證的有效 Premium 交易，才會同時恢復移除廣告與全調號音準分析。重裝、換機或無法確認購買時，先嘗試恢復；沒有可恢復項目會明確提示。",
+              "等待批准的購買尚未解鎖，批准後會自動更新。尚無法驗證的交易不授予新權益；請先恢復購買，避免直接重複購買。已驗證權益不會因價格載入、購買取消或恢復失敗而清空。",
+              "退款或共享撤銷確認後會更新權益，受限制的統計畫面回到免費 C 大調，保留全部練習資料。離線時依 StoreKit 可驗證的交易決定權益；外部退款或帳號變化可能需要再次連線才得知。"
+            ]
+          }
+        ]
+      },
+      "advertisingStatus": {
+        "website": "廣告功能依 App 版本而定。請查看 App 內「隱私政策」上方的「此版本廣告狀態」，確認你使用的版本是否啟用廣告。"
+      }
+    },
+    "en": {
+      "privacy": {
+        "title": "Privacy Policy",
+        "introduction": "Violin Trainer uses the microphone to help you practice violin pitch and intonation. This policy explains how the current version handles audio, practice records, and preferences.",
+        "sections": [
+          {
+            "id": "microphone",
+            "title": "Microphone and Pitch Analysis",
+            "paragraphs": [
+              "With microphone permission, the app reads audio while in use and analyzes pitch, intonation, and string position on your device. Live analysis temporarily uses audio segments; it does not save a full practice recording unless you use a recording feature.",
+              "The microphone may also capture nearby voices or other sounds. Consider your surroundings and obtain permission from people present before recording. You can revoke microphone permission in iOS Settings. Recording and live analysis cannot operate without that permission."
+            ]
+          },
+          {
+            "id": "recordings",
+            "title": "Recordings and Practice Records",
+            "paragraphs": [
+              "Recordings are stored on your device. The second page also saves practice settings, pitch and string-analysis results, and corresponding display and timing records for review and troubleshooting.",
+              "Each of the first two pages keeps its most recent successfully saved take. A new take replaces the previous one only after saving successfully. Empty takes or saving failures keep the previous recording. See Help and Support for recording controls and storage limits."
+            ]
+          },
+          {
+            "id": "preferences",
+            "title": "Practice Statistics and Preferences",
+            "paragraphs": [
+              "Language, tuning preferences, and practice statistics are stored on your device for future use. Statistics include practice times, notes, pitch deviations, and measured note durations.",
+              "The second page automatically collects valid note statistics while it is visible in the foreground with the microphone on. REC is optional; collecting statistics alone does not save a full recording. Progress is saved periodically and when leaving the page, stopping the microphone, or backgrounding. A local backup helps recover statistics; unreadable originals may be kept on this device for recovery.",
+              "If you have used personal learning, your device may also contain short recordings and correction records. These are used only for on-device corrections and validation and are not uploaded automatically."
+            ]
+          },
+          {
+            "id": "sharing",
+            "title": "Data Transfers and Sharing",
+            "paragraphs": [
+              "The app has no user accounts, cloud pitch analysis, or automatic recording uploads. It does not automatically send recordings, pitch, string-analysis results, or practice statistics to the developer or advertising services, or use this practice data for tracking across apps or websites.",
+              "When you choose to share files, recipients receive the content you provide. External websites and email services handle relevant data under their own privacy policies."
+            ]
+          },
+          {
+            "id": "advertising",
+            "title": "Advertising and Privacy Choices",
+            "paragraphs": [
+              "When advertising is enabled, the app uses Google AdMob to provide non-personalized ads. Advertising services may process IP addresses and approximate location, device or app identifiers, ad interactions, performance data, and crash reports for ad delivery, measurement, and service operation. Non-personalized ads may still use connection and device information.",
+              "The app does not request cross-app tracking authorization. It requests ads only after any required privacy choices. Where available, change your choices under Ad Privacy Choices in Settings. For Google’s data practices, see https://policies.google.com/privacy ."
+            ]
+          },
+          {
+            "id": "support-data",
+            "title": "Information You Send to Support",
+            "paragraphs": [
+              "Contact details, issue descriptions, recordings, or diagnostic information you choose to send us are used only to respond, investigate your reported issue, and follow up about it. Support emails do not automatically attach recordings. Please provide only what is needed.",
+              "We retain this information only while handling the issue and necessary follow-up, then delete it when it is no longer needed. We do not use it for advertising or public display. Any separate research or model-training use requires your additional consent.",
+              "Reply to the original support email to request deletion of information you provided. We will delete copies under our control on request. Deleting the app does not delete support correspondence. Email-provider backups and retention are governed by that provider’s policy."
+            ]
+          },
+          {
+            "id": "retention",
+            "title": "Retention, Deletion, and Backups",
+            "paragraphs": [
+              "On the second page, tap DELETE and confirm “Delete this page’s recording and fingerprints?” to stop recording, delete this page’s saved and active audio and related records, and clear visible fingerprints. The first page’s recording and accumulated statistics are kept. Clear statistics separately on Statistics; this also removes its local backups and retained unreadable statistics.",
+              "Versions with personal learning let you clear its short recordings and correction records in Settings. To remove all local data, including the first page’s recording or data from older versions, choose Delete App in iOS iPhone Storage settings. Offload App keeps your data.",
+              "Shared files and sent emails are not deleted with the app. Some local data may be included in iCloud or computer backups under your system settings. Manage backups separately; restoring one may restore old data. The app has no separate cloud synchronization service."
+            ]
+          },
+          {
+            "id": "purchases",
+            "title": "App Store Purchases",
+            "paragraphs": [
+              "Apple’s App Store handles payments. The app does not receive your payment-card details or Apple Account password. It reads and verifies purchase records on your device to provide or restore Premium access.",
+              "Transaction information is not added to recordings or practice statistics or sent by the app to the developer or advertising services. Purchases, restores, and refunds do not delete practice data."
+            ]
+          },
+          {
+            "id": "changes",
+            "title": "Policy Updates",
+            "paragraphs": [
+              "We update this policy and the date above when features or data practices change."
+            ]
+          }
+        ]
+      },
+      "support": {
+        "title": "Help and Support",
+        "introduction": "Check the common questions below first. When reporting an issue, include the app version, iPhone model, iOS version, steps to reproduce, and whether you use Bluetooth or an external microphone.",
+        "sections": [
+          {
+            "id": "permission",
+            "title": "No Input or Microphone Permission Denied",
+            "paragraphs": [
+              "Find Violin Trainer in iOS Settings and enable microphone access. You can also change it under Privacy & Security, Microphone. Return to the app and try again.",
+              "If you use Bluetooth or an external audio device, check which device is connected and whether its microphone is available."
+            ]
+          },
+          {
+            "id": "audio-recovery",
+            "title": "Resuming After Calls, Siri, or Audio Device Changes",
+            "paragraphs": [
+              "Calls, Siri, and audio input changes may pause listening. If the microphone was on and iOS permits resumption, the app reconnects the input. If you see Tap mic to resume or Unable to start microphone, tap the microphone button to try again.",
+              "An audio interruption, input change, or backgrounding stops an active take and attempts to save the recorded portion. A first-page saving failure keeps the previous take. Resuming listening does not resume recording. Wait for saving to finish, then press REC to start a new take.",
+              "Disconnecting headphones stops playback first to prevent sound moving directly to the speaker. After changing a Bluetooth or USB audio device, check its connection and microphone availability if listening does not recover, then tap the microphone to retry.",
+              "After an iOS audio service reset, tap the microphone to start listening again. Turning the microphone off yourself keeps it off when returning to the app or changing devices."
+            ]
+          },
+          {
+            "id": "practice",
+            "title": "Pitch or Fingerboard Dot Does Not Match",
+            "paragraphs": [
+              "Tune all four open strings first. Play a steady sustained note in a quiet place and check that the app's tuning reference matches your instrument. Fast string changes, quiet notes, background sounds, and different input devices may affect results.",
+              "A gray dot with an ellipsis means the string position is still being confirmed. When reporting a string-position issue, include the actual string, note, and location in the take when possible. The same pitch can be played on different strings."
+            ]
+          },
+          {
+            "id": "statistics",
+            "title": "Automatic Intonation Statistics",
+            "paragraphs": [
+              "Play on Intonation Analysis with the microphone on to automatically collect valid sustained notes confirmed by the live dot. REC is optional. REC, STOP, and deleting recordings do not clear accumulated statistics. Leaving the page, stopping the microphone, or backgrounding saves the practice session.",
+              "A gray waiting dot, a retained previous note, or an unconfirmed position is not a new sample. Brief sounds and invalid pitch may not form a statistics record. Statistics use the key selected while playing; choose the matching key and period on Statistics to review them, or clear them separately.",
+              "During practice, progress is saved about every 15 seconds, including the measured portion of an ongoing note without counting it twice. A crash may still lose progress since the last successful save. Statistics shows a notice if saving fails or a backup is used. Free device space and tap Retry Saving when needed. Clearing statistics also deletes its backups and retained unreadable originals."
+            ]
+          },
+          {
+            "id": "recording",
+            "title": "Recording, Replacement, and Deletion",
+            "paragraphs": [
+              "Each of the first two pages keeps its most recent successfully saved take. REC starts a new take directly. The new take replaces that page's previous take only after it stops and saves successfully. Creation failures, empty takes, or save failures keep the previous take.",
+              "On the first page, tap REC to record audio. The same button then shows elapsed time and a stop icon; tap it again to stop, or tap PLAY to save the current take before playing it. Wait for Saving to finish. PLAY uses the newly saved take on success; a failure keeps the previous take and shows an error.",
+              "On the second page, tap REC to start; elapsed time appears above the button. Tap the same button to stop, then PLAY after saving to listen. Pitch, string-analysis results, and related practice records are saved with the audio. Do not force-close the app while it is saving. Leaving the second page stops its recording; calls, backgrounding, or input changes may also stop a take early.",
+              "A successfully saved second-page take replaces previous recordings, including those from older versions. DELETE asks “Delete this page’s recording and fingerprints?” Confirming stops recording, removes this page’s saved and active audio and related records, and clears fingerprints. Cancel keeps the data. The first page’s recording and accumulated statistics are kept.",
+              "Each new recording on the first two pages is limited to 1 GiB and leaves at least 200 MiB of device storage available. The previous take remains during replacement, so extra space is needed. Recording stops when a limit is reached or available space cannot be checked; a validated playable portion may be saved and replace the previous take. Empty or failed saves keep the previous take. At 48 kHz mono, audio alone uses about 659 MiB per hour; second-page decision records use additional space. Free device space before recording again, or use DELETE on Intonation Analysis to remove that page’s recording.",
+              "Unfinished first-page temporary recordings are cleaned up when the app next opens or a new take begins. File sizes and available storage are checked only on your device to determine whether recording can continue; storage information is not added to recording records or sent to the developer."
+            ]
+          },
+          {
+            "id": "data",
+            "title": "Managing Practice Data",
+            "paragraphs": [
+              "The second page currently keeps one take. Use its DELETE button and confirm to remove this page’s recording, related records, and visible fingerprints. A new successfully saved take replaces the first page’s recording. Clear intonation statistics separately on Statistics.",
+              "Versions with personal learning let you clear short recordings and correction records in Settings; up to 24 diagnostic records are retained. To delete all local data, including the first page’s recording or older-version data, choose Delete App in iOS rather than Offload App, which keeps data.",
+              "Manage system backups, shared files, and support emails separately. Reply to the original support email to request deletion of information sent to support. See the Privacy Policy for details."
+            ]
+          },
+          {
+            "id": "advertising",
+            "title": "Advertisements and Privacy Choices",
+            "paragraphs": [
+              "When advertising is enabled, successfully loaded ads appear at the bottom of the page. The banner stays hidden when offline, when no ad is available, or when required privacy choices are incomplete. You can continue practicing, recording, and using statistics.",
+              "When available, use Settings > Ad Privacy Choices to change your choices. If ads are temporarily unavailable, retry in Settings; the privacy policy is also readable offline. A single Premium purchase includes ad removal and All-Key Intonation Analysis. Purchases and restores are verified through the App Store."
+            ]
+          },
+          {
+            "id": "contact",
+            "title": "Reporting an Issue",
+            "paragraphs": [
+              "Do not include passwords, payment details, or unrelated personal information. Check that a recording is suitable to share before providing it.",
+              "We retain information you provide to support only while handling the issue and necessary follow-up, then delete it when no longer needed. You can also reply to the original support email to request deletion. Separate research or model-training use requires your additional consent."
+            ]
+          },
+          {
+            "id": "purchases",
+            "title": "Purchases, restores and purchase help",
+            "paragraphs": [
+              "In Settings > Premium, one permanent purchase includes both ad removal and All-Key Intonation Analysis. There is no subscription or separate feature purchase. Analyze existing and new statistics in all supported major and natural minor keys; live pitch detection, recording, and practice data collection remain free. Prices use the App Store local currency. Versions with advertising disabled already show no ads; your verified ad-free access also applies if advertising is enabled in a later version.",
+              "If a product or price cannot be loaded, retry loading purchases. Test prices are never substituted. Stop recording or playback and wait for saving to finish before purchasing or restoring.",
+              "Restore Purchases checks the current App Store account for Premium without charging again. A valid, verified Premium purchase restores both ad removal and All-Key Intonation Analysis together. Try restoring after reinstalling, changing devices, or when ownership cannot be verified. An empty result is explicitly reported.",
+              "Pending purchases remain locked until approved and then update automatically. Unverified transactions do not grant new access; try restoring before purchasing again. Verified access is not cleared by price-loading errors, purchase cancellation or a failed restore.",
+              "Confirmed refunds or sharing revocations update access and return restricted statistics to free C major, preserving all practice data. Offline access uses transactions StoreKit can verify; external refunds or account changes may require a connection before they become known."
+            ]
+          }
+        ]
+      },
+      "advertisingStatus": {
+        "website": "Advertising availability depends on the app version. Check “Advertising in this version” at the top of the in-app Privacy Policy for the status of your version."
+      }
+    }
+  }
+}
