@@ -19,6 +19,8 @@ jobs:
           persist-credentials: false
       - name: Test the publication checks
         run: python3 -m unittest discover -s tools -p 'test_*.py' -v
+      - name: Generate public pages
+        run: python3 tools/site.py --write
       - name: Validate public details and the exact public artifact
         run: python3 tools/site.py --check --require-public-details --repository "$GITHUB_REPOSITORY"
       - name: Upload only the public pages
