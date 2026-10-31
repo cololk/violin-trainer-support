@@ -41,9 +41,9 @@
             "id": "violin-personalization",
             "title": "多琴識別與個人化判弦",
             "paragraphs": [
-              "開啟「多琴個人化判弦」並輸入或選擇琴名後，調音器在空弦進入 ±5 cents 時採集 1 秒琴聲，保存各弦的音色特徵與琴名，用於之後在本機識別小提琴；不保存這一秒的完整調音錄音。",
+              "多琴個人化判弦是 App 的內建功能。輸入或選擇琴名後，調音器在空弦進入 ±5 cents 時採集 1 秒琴聲，保存各弦的音色特徵與琴名，用於之後在本機識別小提琴；不保存這一秒的完整調音錄音。",
               "在第二頁點音符泡泡修正弦別時，App 會按琴別保存約 0.25 秒短錄音、音色特徵、音高、你指定的弦別與時間，用於這把琴之後的個人化判弦。每把琴最多保存 200 筆，包含已復原的修正；四弦音色參考最多保存 8 組。資料在裝置內處理，不會自動上傳給開發者或廣告服務。",
-              "「復原」會撤銷上一筆修正的判弦影響，但保留其短錄音與紀錄。要真正刪除，請到「設定」→「我的小提琴與學習資料」。關閉「多琴個人化判弦」會停止此功能的採集與套用，已保存的資料仍保留，且仍可在設定中清除。"
+              "「復原」會撤銷上一筆修正的判弦影響，但保留其短錄音與紀錄。要真正刪除，請到「設定」→「我的小提琴與學習資料」。"
             ]
           },
           {
@@ -236,9 +236,9 @@
             "id": "violin-personalization",
             "title": "Violin Identification and Personalization",
             "paragraphs": [
-              "With Multi-violin personalization enabled, entering or selecting a violin name lets the tuner capture one second of a qualifying open string within ±5 cents. It stores the name and each string’s tone features for later on-device identification, not the full one-second tuning recording.",
+              "Multi-violin personalization is built into the app. Entering or selecting a violin name lets the tuner capture one second of a qualifying open string within ±5 cents. It stores the name and each string’s tone features for later on-device identification, not the full one-second tuning recording.",
               "Tapping a note bubble to correct its string on Intonation Analysis saves about 0.25 seconds of audio, tone features, pitch, your selected physical string and the time under that violin. These samples personalize future string decisions for that violin. Each violin can retain up to 200 corrections, including undone corrections, and up to eight complete open-string references. Processing stays on the device; these data are not automatically uploaded to the developer or advertising services.",
-              "Undo stops the latest correction from influencing string decisions but retains its recording and record. To delete the data, open Settings > My violins and learning data. Turning off Multi-violin personalization stops its capture and use; existing data remain and can still be cleared in Settings."
+              "Undo stops the latest correction from influencing string decisions but retains its recording and record. To delete the data, open Settings > My violins and learning data."
             ]
           },
           {
