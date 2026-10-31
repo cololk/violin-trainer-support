@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-10-31",
   "configuration": {
     "developerName": "Cololk",
     "supportEmail": "Lukelin0072@gmail.com",
@@ -38,6 +38,15 @@
             ]
           },
           {
+            "id": "violin-personalization",
+            "title": "多琴識別與個人化判弦",
+            "paragraphs": [
+              "開啟「多琴個人化判弦」並輸入或選擇琴名後，調音器在空弦進入 ±5 cents 時採集 1 秒琴聲，保存各弦的音色特徵與琴名，用於之後在本機識別小提琴；不保存這一秒的完整調音錄音。",
+              "在第二頁點音符泡泡修正弦別時，App 會按琴別保存約 0.25 秒短錄音、音色特徵、音高、你指定的弦別與時間，用於這把琴之後的個人化判弦。每把琴最多保存 200 筆，包含已復原的修正；四弦音色參考最多保存 8 組。資料在裝置內處理，不會自動上傳給開發者或廣告服務。",
+              "「復原」會撤銷上一筆修正的判弦影響，但保留其短錄音與紀錄。要真正刪除，請到「設定」→「我的小提琴與學習資料」。關閉「多琴個人化判弦」會停止此功能的採集與套用，已保存的資料仍保留，且仍可在設定中清除。"
+            ]
+          },
+          {
             "id": "sharing",
             "title": "資料傳送與分享",
             "paragraphs": [
@@ -67,7 +76,8 @@
             "title": "保留、刪除與備份",
             "paragraphs": [
               "在第二頁按「刪除」，並確認「刪除本頁錄音與指印？」後，會停止錄製，刪除本頁保存及正在錄製的音訊與相關紀錄，再清除畫面指印。第一頁錄音與累積統計另行保留；統計可在「統計」頁清除，也會一併刪除本機統計備份與保留的損壞統計資料。",
-              "提供個人學習功能的版本可在「設定」清除短錄音與修正紀錄。要移除全部本機資料，包括第一頁錄音或舊版本留下的資料，請在 iOS 的 iPhone 儲存空間管理選擇「刪除 App」；「卸載 App」會保留資料。",
+              "在「設定」→「我的小提琴與學習資料」選擇一把琴：「清除學習資料」會刪除其全部泡泡修正與短錄音（含已復原），保留琴名與四弦音色樣本；「刪除琴別」會一併刪除該琴名稱、四弦音色樣本與全部學習資料。兩者都需確認且無法復原，不影響其他小提琴、兩頁練習錄音或累積統計。",
+              "要移除全部本機資料，包括第一頁錄音或舊版本留下的資料，請在 iOS 的 iPhone 儲存空間管理選擇「刪除 App」；「卸載 App」會保留資料。",
               "已分享的檔案與寄出的信件不會隨 App 刪除。部分本機資料可能依你的系統設定納入 iCloud 或電腦備份；備份需另外管理，恢復備份可能還原舊資料。App 沒有獨立的雲端同步服務。"
             ]
           },
@@ -119,6 +129,16 @@
             ]
           },
           {
+            "id": "violin-personalization",
+            "title": "建立、識別與修正我的小提琴",
+            "paragraphs": [
+              "第一次使用時，在調音器點「輸入小提琴名稱」，輸入名字後正常調整 G、D、A、E 空弦。每弦進入 ±5 cents 並維持合格琴聲 1 秒，即自動保存該弦的音色特徵；請使用 iPhone 內建麥克風，四弦順序不限。",
+              "縮小 App 再回來會沿用目前的琴別，個人化判弦與泡泡修正繼續可用。完全關閉後重開，或 iOS 回收程序後重新啟動，會回到「識別小提琴」，在調音時比對四弦；無法確定時請選擇既有琴或輸入新琴名稱。中途換琴請直接點琴名手動切換；外接麥克風請手動選琴。",
+              "第二頁使用自動判弦時，穩定拉同一音，再點實際演奏弦上同音高的泡泡；剛停弓後也可操作。「＋1」表示一筆修正已成功保存。同一次拉弓不重複計數；未取得有效琴聲時不會顯示成功。",
+              "後續個人化判弦需要同一把琴、相同音高且音色相近的至少兩次獨立拉弓修正，並且弦別一致。修正不會直接套用到所有音高或其他琴；辨識不確定或範例矛盾時仍使用基礎判弦。復原只撤銷上一筆修正的影響，原始短錄音仍占用保存額度。"
+            ]
+          },
+          {
             "id": "statistics",
             "title": "如何自動累積音準統計",
             "paragraphs": [
@@ -144,7 +164,8 @@
             "title": "管理練習資料",
             "paragraphs": [
               "第二頁目前保留一段錄音，直接使用頁面的「刪除」按鈕並確認，即可刪除本頁錄音、相關紀錄與畫面指印。第一頁錄音在下次成功保存新錄音後取代；音準統計須在「統計」頁另外清除。",
-              "提供個人學習功能的版本可在「設定」清除短錄音與修正紀錄，最多保留 24 筆診斷紀錄。要刪除全部本機資料（包括第一頁錄音或舊版資料），請在 iOS 選擇「刪除 App」，而非保留資料的「卸載 App」。",
+              "在「設定」→「我的小提琴與學習資料」管理單把琴。「清除學習資料」刪除其全部修正與短錄音（含已復原），保留琴名與四弦樣本；「刪除琴別」則刪除這把琴的全部個人化資料。每把琴最多保存 200 筆修正；達上限後可清除學習資料再重新累積。上述操作不影響其他琴、練習錄音與統計。",
+              "要刪除全部本機資料，包括第一頁錄音與舊版資料，請在 iOS 選擇「刪除 App」，而非保留資料的「卸載 App」。",
               "系統備份、已分享的檔案與支援信件需另外管理。支援資料可回覆原支援信件要求刪除；完整說明見「隱私政策」。"
             ]
           },
@@ -212,6 +233,15 @@
             ]
           },
           {
+            "id": "violin-personalization",
+            "title": "Violin Identification and Personalization",
+            "paragraphs": [
+              "With Multi-violin personalization enabled, entering or selecting a violin name lets the tuner capture one second of a qualifying open string within ±5 cents. It stores the name and each string’s tone features for later on-device identification, not the full one-second tuning recording.",
+              "Tapping a note bubble to correct its string on Intonation Analysis saves about 0.25 seconds of audio, tone features, pitch, your selected physical string and the time under that violin. These samples personalize future string decisions for that violin. Each violin can retain up to 200 corrections, including undone corrections, and up to eight complete open-string references. Processing stays on the device; these data are not automatically uploaded to the developer or advertising services.",
+              "Undo stops the latest correction from influencing string decisions but retains its recording and record. To delete the data, open Settings > My violins and learning data. Turning off Multi-violin personalization stops its capture and use; existing data remain and can still be cleared in Settings."
+            ]
+          },
+          {
             "id": "sharing",
             "title": "Data Transfers and Sharing",
             "paragraphs": [
@@ -241,7 +271,8 @@
             "title": "Retention, Deletion, and Backups",
             "paragraphs": [
               "On the second page, tap DELETE and confirm “Delete this page’s recording and fingerprints?” to stop recording, delete this page’s saved and active audio and related records, and clear visible fingerprints. The first page’s recording and accumulated statistics are kept. Clear statistics separately on Statistics; this also removes its local backups and retained unreadable statistics.",
-              "Versions with personal learning let you clear its short recordings and correction records in Settings. To remove all local data, including the first page’s recording or data from older versions, choose Delete App in iOS iPhone Storage settings. Offload App keeps your data.",
+              "In Settings > My violins and learning data, select a violin. Clear learning data deletes all its bubble corrections and short recordings, including undone corrections, while keeping its name and open-string tone samples. Delete violin also removes its name and open-string tone samples. Both actions require confirmation and cannot be undone. Other violins, practice recordings on either page and accumulated statistics are kept.",
+              "To remove all local data, including Main’s recording or data left by older versions, choose Delete App in iOS iPhone Storage. Offload App keeps the data.",
               "Shared files and sent emails are not deleted with the app. Some local data may be included in iCloud or computer backups under your system settings. Manage backups separately; restoring one may restore old data. The app has no separate cloud synchronization service."
             ]
           },
@@ -293,6 +324,16 @@
             ]
           },
           {
+            "id": "violin-personalization",
+            "title": "Name, Identify and Correct Your Violin",
+            "paragraphs": [
+              "On first use, tap Enter violin name on the tuner and enter a name. Tune the open G, D, A and E strings normally. Each string’s tone features are saved automatically after one second of qualifying sound within ±5 cents. Use the iPhone’s built-in microphone; the order of the strings does not matter.",
+              "Returning from the background keeps the selected violin and leaves personalization and bubble corrections available. Closing and reopening the app, or restarting after iOS reclaims its process, begins at Identify violin. Tuning then compares all four strings; if the match is uncertain, select an existing violin or name a new one. When changing violins during a session, tap the name to switch manually. Select the violin manually with an external microphone.",
+              "With automatic string selection on Intonation Analysis, play a steady note and tap the bubble for that pitch on the physical string you actually played. You can also tap just after stopping the bow. +1 means one correction was saved. Repeated taps on the same bow do not add copies, and invalid audio does not produce a success indicator.",
+              "Future personalized decisions require at least two independent bows with the same pitch, similar tone and a consistent physical-string label for the selected violin. Corrections do not automatically apply to all pitches or other violins. Uncertain predictions or conflicting examples keep the base decision. Undo removes the latest correction’s influence, while its short recording still counts toward the storage limit."
+            ]
+          },
+          {
             "id": "statistics",
             "title": "Automatic Intonation Statistics",
             "paragraphs": [
@@ -318,7 +359,8 @@
             "title": "Managing Practice Data",
             "paragraphs": [
               "The second page currently keeps one take. Use its DELETE button and confirm to remove this page’s recording, related records, and visible fingerprints. A new successfully saved take replaces the first page’s recording. Clear intonation statistics separately on Statistics.",
-              "Versions with personal learning let you clear short recordings and correction records in Settings; up to 24 diagnostic records are retained. To delete all local data, including the first page’s recording or older-version data, choose Delete App in iOS rather than Offload App, which keeps data.",
+              "Manage an individual violin in Settings > My violins and learning data. Clear learning data removes all its corrections and short recordings, including undone corrections, while keeping its name and open-string samples. Delete violin removes all of that violin’s personalization data. Each violin can retain up to 200 corrections; clear its learning data to start collecting again when full. These actions keep other violins, practice recordings and statistics.",
+              "To remove all local data, including Main’s recording and older-version data, choose Delete App in iOS rather than Offload App, which keeps data.",
               "Manage system backups, shared files, and support emails separately. Reply to the original support email to request deletion of information sent to support. See the Privacy Policy for details."
             ]
           },
