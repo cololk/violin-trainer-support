@@ -73,7 +73,7 @@ def render(content):
             developer = '<p>{}: {}</p>'.format('Developer' if english else '開發者', e(details['developerName'])) if details['developerName'] else ''
             contact = ''
             if details['supportEmail']:
-                href = 'mailto:' + details['supportEmail'] + '?' + urlencode({'subject': 'Violin Trainer Support'})
+                href = 'mailto:' + details['supportEmail'] + '?' + urlencode({'subject': 'Violin Pitch Coach Support'})
                 contact = '<section id="email"><h2>{}</h2><p><a href="{}">{}</a></p></section>'.format(
                     'Contact developer' if english else '聯絡開發者', e(href, quote=True), e(details['supportEmail']))
             draft = ''
@@ -96,15 +96,15 @@ def render(content):
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {'<meta name="robots" content="noindex">' if incomplete else ''}
-  <meta name="description" content="Violin Trainer {title}">
-  <title>{title} · Violin Trainer</title>
+  <meta name="description" content="Violin Pitch Coach {title}">
+  <title>{title} · Violin Pitch Coach</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">{'Skip to content' if english else '跳至主要內容'}</a>
   <header class="site-header">
     <div class="header-inner">
-      <span class="brand">Violin Trainer</span>
+      <span class="brand">Violin Pitch Coach</span>
       <nav aria-label="{'Navigation' if english else '主要導覽'}">
         <a href="privacy{suffix}.html"{' aria-current="page"' if topic == 'privacy' else ''}>{privacy}</a>
         <a href="support{suffix}.html"{' aria-current="page"' if topic == 'support' else ''}>{support}</a>
@@ -114,7 +114,7 @@ def render(content):
   </header>
   <main id="main" class="wrap" tabindex="-1">
     <div class="hero">
-      <p class="eyebrow">VIOLIN TRAINER</p>
+      <p class="eyebrow">Violin Pitch Coach</p>
       <h1>{title}</h1>
       <div class="meta"><p>{'Updated:' if english else '更新日期：'} {e(content['updatedAt'])}</p>{developer}</div>
       <p class="intro">{e(doc['introduction'])}</p>
@@ -128,7 +128,7 @@ def render(content):
       <article aria-label="{title}">{sections}{hosting}{contact}</article>
     </div>
   </main>
-  <footer class="wrap"><span>Violin Trainer</span><a href="privacy{suffix}.html">{privacy}</a><a href="support{suffix}.html">{support}</a></footer>
+  <footer class="wrap"><span>Violin Pitch Coach</span><a href="privacy{suffix}.html">{privacy}</a><a href="support{suffix}.html">{support}</a></footer>
 </body>
 </html>
 '''
@@ -136,7 +136,7 @@ def render(content):
 <html lang="zh-Hant"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="refresh" content="0; url=privacy.html">
-<meta name="robots" content="noindex"><title>Violin Trainer 隱私政策</title></head>
+<meta name="robots" content="noindex"><title>Violin Pitch Coach 隱私政策</title></head>
 <body><p><a href="privacy.html">隱私政策</a> · <a href="privacy-en.html" lang="en">Privacy policy</a></p></body></html>
 '''
     return {name: '\n'.join(line.rstrip() for line in value.splitlines()) + '\n' for name, value in output.items()}

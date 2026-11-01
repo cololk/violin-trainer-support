@@ -46,7 +46,7 @@ class WebsiteTests(unittest.TestCase):
         self.assertEqual(site.check_site(self.root, self.content), [])
         text = (self.root / 'public/support.html').read_text(encoding='utf-8')
         self.assertIn('Example &amp; Co', text)
-        self.assertIn('mailto:help+app@example.org?subject=Violin+Trainer+Support', text)
+        self.assertIn('mailto:help+app@example.org?subject=Violin+Pitch+Coach+Support', text)
         self.assertNotIn('name="robots"', text)
 
     def test_wrong_repository_and_urls_block_publication(self):

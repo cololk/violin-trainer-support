@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-01",
   "configuration": {
     "developerName": "Cololk",
     "supportEmail": "Lukelin0072@gmail.com",
@@ -10,7 +10,7 @@
     "zh-Hant": {
       "privacy": {
         "title": "隱私政策",
-        "introduction": "Violin Trainer 使用麥克風協助你練習小提琴音高與音準。以下說明目前版本如何處理音訊、練習紀錄與設定。",
+        "introduction": "Violin Pitch Coach 使用麥克風協助你練習小提琴音高與音準。以下說明目前版本如何處理音訊、練習紀錄與設定。",
         "sections": [
           {
             "id": "microphone",
@@ -106,7 +106,7 @@
             "id": "permission",
             "title": "沒有收音或曾拒絕麥克風權限",
             "paragraphs": [
-              "到 iOS「設定」找到 Violin Trainer，開啟麥克風權限；也可在「隱私權與安全性」的「麥克風」項目中調整。回到 App 後再試一次。",
+              "到 iOS「設定」找到 Violin Pitch Coach，開啟麥克風權限；也可在「隱私權與安全性」的「麥克風」項目中調整。回到 App 後再試一次。",
               "使用藍牙或外接音訊設備時，請確認目前連接的裝置，以及麥克風是否可用。"
             ]
           },
@@ -205,7 +205,7 @@
     "en": {
       "privacy": {
         "title": "Privacy Policy",
-        "introduction": "Violin Trainer uses the microphone to help you practice violin pitch and intonation. This policy explains how the current version handles audio, practice records, and preferences.",
+        "introduction": "Violin Pitch Coach uses the microphone to help you practice violin pitch and intonation. This policy explains how the current version handles audio, practice records, and preferences.",
         "sections": [
           {
             "id": "microphone",
@@ -301,7 +301,7 @@
             "id": "permission",
             "title": "No Input or Microphone Permission Denied",
             "paragraphs": [
-              "Find Violin Trainer in iOS Settings and enable microphone access. You can also change it under Privacy & Security, Microphone. Return to the app and try again.",
+              "Find Violin Pitch Coach in iOS Settings and enable microphone access. You can also change it under Privacy & Security, Microphone. Return to the app and try again.",
               "If you use Bluetooth or an external audio device, check which device is connected and whether its microphone is available."
             ]
           },

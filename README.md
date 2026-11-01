@@ -1,4 +1,4 @@
-# Violin Trainer 隱私政策與支援網站
+# Violin Pitch Coach 隱私政策與支援網站
 
 這個資料夾可獨立成為 GitHub Pages 儲存庫。公開內容只有繁體中文與英文的隱私政策、使用說明與支援頁。網站使用靜態 HTML 和本機 CSS，不需要 App 專案、模型、錄音、官網素材、JavaScript、外部字型或套件安裝。
 
